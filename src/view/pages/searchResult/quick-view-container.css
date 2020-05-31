@@ -1,0 +1,12 @@
+.se-view-container {
+  position: relative;
+  width: 100%;
+}
+
+.quick-view-container {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  background-color: #fff;
+  width: 100%;
+}

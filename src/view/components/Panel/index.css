@@ -1,0 +1,13 @@
+.se-panel {
+  padding: 5px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.33);
+  width: 100%;
+}
+
+.se-panel__header {
+  padding: 5px;
+}
+
+.se-panel__action {
+  margin-right: 10px;
+}

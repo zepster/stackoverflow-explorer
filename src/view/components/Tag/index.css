@@ -1,0 +1,14 @@
+.se-tag {
+  display: inline-block;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin: 2px;
+  background-color: rgba(225, 236, 244, 0.5);
+  color: rgb(57, 115, 157);
+  text-decoration: none;
+}
+
+.se-tag:hover {
+  background-color: rgba(225, 236, 244, 1);
+  cursor: pointer;
+}

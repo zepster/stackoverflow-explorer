@@ -1,0 +1,34 @@
+.se-table {
+  font-size: 12px;
+  transition: all 0.5s;
+  width: 100%;
+  text-align: left;
+}
+
+.se-table__cell {
+  padding: 5px;
+}
+
+.se-table__th-cell {
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.se-table__th-cell:hover {
+  cursor: pointer;
+}
+
+.se-table__cell--sort-desc {
+  border-top: 2px solid #ccc;
+}
+.se-table__cell--sort-asc {
+  border-bottom: 2px solid #ccc;
+}
+
+.se-table__row:nth-child(even) {
+  background-color: rgba(242, 242, 242, 0.63);
+}
+.se-table__body .se-table__row:hover,
+.se-table__th-cell:hover {
+  box-shadow: inset 0 0 3px 1px rgba(0, 0, 0, 0.22);
+}

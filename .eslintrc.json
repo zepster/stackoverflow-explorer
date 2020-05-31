@@ -1,0 +1,18 @@
+{
+  "plugins": ["@typescript-eslint"],
+  "extends": ["airbnb-typescript", "react-app"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "@typescript-eslint/camelcase": "off",
+    "import/no-cycle": "off",
+    "import/prefer-default-export": "off",
+    "react/prop-types": "off",
+    "react/no-array-index-key": "off",
+    "react/no-danger": "off",
+    "react/no-children-prop": "off",
+    "react/jsx-props-no-spreading": "off"
+  }
+}
